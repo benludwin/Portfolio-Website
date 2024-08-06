@@ -2,8 +2,10 @@
   "name": "portfoliogit",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "react-scripts start"
   },
   "keywords": [],
   "author": "",
@@ -11,15 +13,29 @@
   "description": "",
   "devDependencies": {
     "@aws-amplify/backend": "^1.0.4",
-    "@aws-amplify/backend-cli": "^1.2.2",
+    "@aws-amplify/backend-cli": "^0.11.1",
     "aws-cdk": "^2.151.0",
     "aws-cdk-lib": "^2.151.0",
     "constructs": "^10.3.0",
     "esbuild": "^0.23.0",
-    "tsx": "^4.16.5",
-    "typescript": "^5.5.4"
+    "tsx": "^4.16.5"
   },
   "dependencies": {
-    "aws-amplify": "^6.4.4"
+    "aws-amplify": "^6.4.4",
+    "react": "^18.3.1",
+    "react-scripts": "^5.0.1",
+    "scripts": "^0.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
